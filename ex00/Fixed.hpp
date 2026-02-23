@@ -4,7 +4,7 @@
 class Fixed {
 	private:
 		int					_rawBits;
-		static const int	_fractitionalBits;
+		static const int	_fractionalBits;
 	public:
 		Fixed(void);
 		Fixed(const Fixed& other);
